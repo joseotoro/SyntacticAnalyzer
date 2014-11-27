@@ -39,6 +39,7 @@ $ java -jar Analyzer.jar
 ### Grammar formats
 * *GRA grammar*
 * *DAT grammar*
+
 (You can check the examples on the 'grammars' folder)
 
 ### Implementation notes
