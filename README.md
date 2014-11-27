@@ -6,8 +6,8 @@ of view.
 
 This tool can help students understand how the process of syntactic analysis is performed, it includes two distinct parsers:
 
-  - A Top-Down parser: LL(1) (**L**eft-to-right, **L**eftmost derivation)
-  - A Bottom-Up parser: SLR(1) (**S**imple **L**eft-to-right, **R**ightmost derivation)
+  - A Top-Down parser: LL(1) (Left-to-right, Leftmost derivation)
+  - A Bottom-Up parser: SLR(1) (Simple Left-to-right, Rightmost derivation)
 
 Also, this implementation shows the internal AT (Action / Transition) table for the SLR parser, list of items generated from the grammar's rules, director's symbols for the LL parser, as well as the derivation sequence from an input string.
 
@@ -41,6 +41,7 @@ $ java -jar Analyzer.jar
 ### Grammar formats
 * *GRA grammar*
 * *DAT grammar*
+
 (You can check the examples on the 'grammars' folder)
 
 ### Implementation notes
