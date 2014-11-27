@@ -1,6 +1,8 @@
 # Syntactic Analyzer
 
-> The treatment of languages is an essential part of computer science. As such, writing a syntactic analyzer as a way to better understand the behaviour of common compilers is quite interesting from the academic standpoint.
+> The treatment of languages is an essential part of computer science. As such, writing a syntactic analyzer 
+as a way to better understand the behaviour of common compilers is quite interesting from the academic point 
+of view.
 
 This tool can help students understand how the process of syntactic analysis is performed, it includes two distinct parsers:
 
