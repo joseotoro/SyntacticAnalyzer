@@ -1,0 +1,29 @@
+TERMINALS
+   +; f; n; (; ); ,;                 
+
+NOTERMINALS
+    S; A; B; F; G; P; Q; R; 
+
+AXIOM 
+   S;
+
+RULES
+   S -> A '$'
+     ;
+   A -> F B
+      ;
+   B -> '+' F B
+      |  
+      ;
+   F -> 'f' '(' R
+      | 'n'
+      | '(' A ')'
+      ;
+   R -> P ')'
+      | ')'
+      ;
+   P -> A Q
+      ;
+   Q -> ',' A
+      |   
+      ;

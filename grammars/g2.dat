@@ -1,0 +1,9 @@
+S->E$
+E->E+R
+E->R
+R->T
+T->T*F
+T->F
+F->(D)
+F->a
+D->E
