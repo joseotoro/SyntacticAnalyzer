@@ -21,7 +21,7 @@ Also, this implementation shows the internal AT (Action / Transition) table for 
 
 **Download**:
 ```sh
-$ git clone https://github.com/wynkth/SyntacticAnalyzer.git
+$ git clone https://github.com/joseotoro/SyntacticAnalyzer.git
 $ cd SyntacticAnalyzer
 ```
 
